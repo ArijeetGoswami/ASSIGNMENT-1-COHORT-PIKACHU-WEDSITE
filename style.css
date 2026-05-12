@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    background-color: #f7d63b;
+
+    height: 85vh;
+    width: 90%;
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    padding-left: 20px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,1);
+
+
+}
+
+.left{
+    width: 50%;
+    background-color: #f7d63b;
+    position: relative;
+    padding: 60px;
+}
+
+.right{
+    width: 50%;
+    background-color: #ebdfac;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    color: rgb(22, 12, 132);
+    height: 0px;
+    width: 10px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+}
+
+
+.small-title{
+    color: rgb(8, 9, 9);
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+}
+
+#heading1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+
+}
+
+.description{
+    width: 70%;
+    line-height: 1.2;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 16px;
+}
+
+.line{
+    width: 90px;
+    height: 2px;
+    background-color: black;
+}
+
+
+.right img{
+     width: 400px;
+     position: absolute;
+     right: 300px;
+     bottom: 0;          
+     z-index: 1;
+     background: transparent;
+
+
+}
+.right menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;   
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+
+
+
